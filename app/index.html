@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html ng-app="myApp">
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- build:css styles/style.min.css -->
+        <link rel="stylesheet" href="css/style.css">
+        <!-- endbuild -->
+    </head>
+    <body>        
+        <ul>
+            <li><a ui-sref="app.auth">Auth</a></li>
+            <li><a ui-sref="app.users">Users</a></li>
+            <li><a ui-sref="app.profile">Profile</a></li>
+        </ul>
+        <ui-view></ui-view>
+        <!-- build:js scripts/vendor.js -->
+        <script src="../bower_components/angular/angular.js"></script>
+        <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <script src="../bower_components/satellizer/satellizer.js"></script>
+        <!-- endbuild -->
+
+        <!-- build:js scripts/app.js -->
+            <script src="scripts/app.js"></script>
+            <script src="scripts/controllers/auth-controller.js"></script>
+            <script src="scripts/controllers/profile-controller.js"></script>
+            <script src="scripts/controllers/user-controller.js"></script>
+        <!-- endbuild -->
+    </body>
+</html>

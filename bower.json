@@ -1,0 +1,24 @@
+{
+  "name": "food_share_frontend",
+  "authors": [
+    "vasanth <vasanth@gridsandguides.com>"
+  ],
+  "description": "",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.5.3",
+    "satellizer": "~0.14.0",
+    "angular-ui-router": "~0.2.18"
+  }
+}

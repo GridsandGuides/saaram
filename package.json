@@ -1,0 +1,28 @@
+{
+  "name": "angular1.4-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app/index.html",
+  "scripts": {
+    "test": "app/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://rajavasanthan@bitbucket.org/rajavasanthan/angular1.4-starter.git"
+  },
+  "author": "Rajavasanthan",
+  "license": "ISC",
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-contrib-concat": "^0.5.1",
+    "grunt-contrib-copy": "^1.0.0",
+    "grunt-contrib-cssmin": "^1.0.1",
+    "grunt-contrib-htmlmin": "^1.4.0",
+    "grunt-contrib-uglify": "^0.10.1",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-filerev": "^2.3.1",
+    "grunt-usemin": "^3.1.1",
+    "grunt-wiredep": "^2.0.0",
+    "matchdep": "^1.0.0"
+  }
+}
